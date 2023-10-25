@@ -1,0 +1,228 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  /* margin: auto; */
+  /* justify-content: center; */
+  font-size: 1.2rem;
+}
+body {
+  background-color: rgb(8, 63, 8);
+}
+h1 {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  position: fixed;
+  width: 99%;
+  height: 1rem;
+  margin-bottom: 20px;
+}
+.titulo {
+  display: flex;
+  justify-content: center;
+}
+h2 {
+  text-align: center;
+  margin-top: 2rem;
+  text-shadow: 0 0 10px rgba(250, 250, 0, 0.8);
+}
+div {
+  background-color: rebeccapurple;
+  color: white;
+}
+a {
+  text-decoration: none;
+}
+.enlace {
+  background-color: rgb(107, 44, 155);
+  width: 8rem;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+  margin: auto;
+}
+.enlace:hover {
+  background-color: rgb(155, 52, 175);
+}
+
+.parrafo {
+  background-color: rgb(128, 128, 9);
+  color: black;
+  margin: 10px 0px;
+  padding: 10px;
+}
+.contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contenidos {
+  width: 350px;
+  height: auto;
+}
+
+.margen {
+  height: 3rem;
+}
+
+.tarjetas {
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px black;
+  padding: 10px;
+  /* margin-top: 2rem; */
+}
+
+.tarjetas h2 {
+  color: black;
+}
+.tarjetas p {
+  background-color: rgba(255, 192, 203, 0.469);
+  border-radius: 20px;
+}
+
+.tarjeta-en-1 {
+  background-image: url(img/corazon_cielo.jpg);
+}
+.tarjeta-en-1 p {
+  color: white;
+  text-shadow: 0 0 5px rgb(58, 21, 243), 0 0 10px black, 0 0 20px black;
+}
+
+.tarjeta-en-2 {
+  background-image: url(img/pareja_1.jpg);
+}
+.tarjeta-en-2 h2 {
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 20px blue, 0 0 25px blue;
+}
+.tarjeta-en-2 p {
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 20px blue, 0 0 25px blue;
+}
+
+.tarjeta-en-3 {
+  background-image: url(img/step_2.webp);
+}
+.tarjeta-en-3 h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+.tarjeta-en-3 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+
+.tarjeta-en-4 {
+  background-image: url(img/cuidate_1.jpg);
+}
+.tarjeta-en-4 h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+.tarjeta-en-4 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+
+.tarjeta-en-5 {
+  background-image: url(img/proposito_1.jpg);
+}
+.tarjeta-en-5 h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+.tarjeta-en-5 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+
+.tarjeta-es-1 {
+  background-image: url(img/cerebro_maquina.jpg);
+}
+.tarjeta-es-1 h2 {
+  color: white;
+  text-shadow: 0 0 5px black, 0 0 10px black, 0 0 20px black;
+}
+.tarjeta-es-1 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255);
+}
+
+.tarjeta-es-2 {
+  background-image: url(img/pareja_2.jpg);
+}
+.tarjeta-es-2 h2 {
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 20px blue, 0 0 25px blue;
+}
+.tarjeta-es-2 p {
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 20px blue, 0 0 25px blue;
+}
+
+.tarjeta-es-3 {
+  background-image: url(img/paso_2.webp);
+}
+.tarjeta-es-3 h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+.tarjeta-es-3 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+
+.tarjeta-es-4 {
+  background-image: url(img/cuidate_2.jpg);
+}
+.tarjeta-es-4 h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+.tarjeta-es-4 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+
+.tarjeta-es-5 {
+  background-image: url(img/proposito_2.jpg);
+}
+.tarjeta-es-5 h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+.tarjeta-es-5 p {
+  color: rgb(0, 0, 0);
+  text-shadow: 0 0 5px rgb(38, 255, 0), 0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255), 0 0 20px rgb(38, 255, 0);
+}
+
+/*------ CARRUSEL -----------*/
+.carrusel {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: scroll;
+}
+.elemento {
+  flex: 1 0 auto;
+  margin: 0 50px;
+  background-color: rebeccapurple;
+  width: 350px;
+  height: auto;
+}
